@@ -7,9 +7,15 @@ const About = () => {
       {/* Hero Banner */}
       <section className="gradient-hero text-white py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
+<<<<<<< HEAD
           <h1 className="text-4xl md:text-5xl font-bold font-display mb-4">About Our School</h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">
             Established in {SCHOOL_INFO.established}, {SCHOOL_INFO.name} has been a beacon of quality education.
+=======
+          <h1 className="text-4xl md:text-5xl font-bold font-display mb-4">About Sagar Public Inter College</h1>
+          <p className="text-lg text-white/80 max-w-2xl mx-auto">
+            Established in {SCHOOL_INFO.established}, {SCHOOL_INFO.name} has been a beacon of quality education in Hajipur Majre Budhna Nigoha, managed by {SCHOOL_INFO.manager}.
+>>>>>>> 04561cd0577f370bca15c93a0f7a649a644c4eb7
           </p>
         </div>
       </section>

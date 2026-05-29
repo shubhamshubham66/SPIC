@@ -1,0 +1,44 @@
+# Robots.txt for Sagar Public Inter College
+# https://sagarpublicintercollege.in
+
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /admissions
+Allow: /courses
+Allow: /results
+Allow: /gallery
+Allow: /events
+Allow: /notices
+Allow: /contact
+
+# Disallow private/admin areas
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /student
+Disallow: /student/*
+Disallow: /teacher
+Disallow: /teacher/*
+Disallow: /login
+
+# Disallow assets that don't need indexing
+Disallow: /assets/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow Google to crawl everything important
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /student
+Disallow: /teacher
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /student
+Disallow: /teacher
+
+# Sitemap location
+Sitemap: https://sagarpublicintercollege.in/sitemap.xml
