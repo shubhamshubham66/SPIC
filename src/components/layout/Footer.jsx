@@ -15,12 +15,12 @@ const Footer = () => {
                 <span className="text-primary-900 font-bold text-lg">S</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold">{SCHOOL_INFO.shortName}</h3>
-                <p className="text-xs text-gray-300">International School</p>
+                <h3 className="text-lg font-bold">{SCHOOL_INFO.name}</h3>
+                <p className="text-xs text-gray-300">Hajipur Majre Budhna Nigoha</p>
               </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              {SCHOOL_INFO.tagline}. Providing quality education since {SCHOOL_INFO.established}.
+              {SCHOOL_INFO.tagline}. Providing quality education since {SCHOOL_INFO.established}. Managed by {SCHOOL_INFO.manager}.
             </p>
             <div className="flex space-x-3">
               <a href="#" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-secondary-400 hover:text-primary-900 transition-all">

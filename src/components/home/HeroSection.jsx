@@ -4,7 +4,7 @@ import { SCHOOL_INFO, SCHOOL_STATS } from '../../utils/constants';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center gradient-hero overflow-hidden">
+    <section className="relative min-h-screen flex items-center gradient-hero overflow-hidden" aria-label="Sagar Public Inter College - Hero Section">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
@@ -32,8 +32,11 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-white/80 max-w-lg leading-relaxed">
-              {SCHOOL_INFO.tagline}. Empowering students with knowledge, skills, and values for a brighter tomorrow.
+              {SCHOOL_INFO.tagline}. Empowering students with knowledge, skills, and values for a brighter tomorrow at Hajipur Majre Budhna Nigoha.
             </p>
+            
+            {/* SEO: Hidden but crawlable school info */}
+            <p className="sr-only">Sagar Public Inter College is managed by Mr. Ajay Yadav and located in Hajipur Majre Budhna Nigoha, providing quality education from Class 1 to 12.</p>
 
             <div className="flex flex-wrap gap-4 pt-4">
               <Link to="/admissions" className="btn-secondary inline-flex items-center">
