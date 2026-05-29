@@ -66,3 +66,4 @@ const CoursesPreview = () => {
 };
 
 export default CoursesPreview;
+

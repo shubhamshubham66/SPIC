@@ -4,11 +4,7 @@ import { SCHOOL_INFO, SCHOOL_STATS } from '../../utils/constants';
 
 const HeroSection = () => {
   return (
-<<<<<<< HEAD
     <section className="relative min-h-screen flex items-center gradient-hero overflow-hidden">
-=======
-    <section className="relative min-h-screen flex items-center gradient-hero overflow-hidden" aria-label="Sagar Public Inter College - Hero Section">
->>>>>>> 04561cd0577f370bca15c93a0f7a649a644c4eb7
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
@@ -32,24 +28,12 @@ const HeroSection = () => {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight font-display">
               Welcome to <br />
-<<<<<<< HEAD
               <span className="text-secondary-400">{SCHOOL_INFO.name}</span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/80 max-w-lg leading-relaxed">
               {SCHOOL_INFO.tagline}. Empowering students with knowledge, skills, and values for a brighter tomorrow.
             </p>
-=======
-              <span className="text-secondary-400">SP INTER COLLEGE</span>
-            </h1>
-            
-            <p className="text-lg md:text-xl text-white/80 max-w-lg leading-relaxed">
-              {SCHOOL_INFO.tagline}. Empowering students with knowledge, skills, and values for a brighter tomorrow at Hajipur Majre Budhna Nigoha.
-            </p>
-            
-            {/* SEO: Hidden but crawlable school info */}
-            <p className="sr-only">Sagar Public Inter College is managed by Mr. Ajay Yadav and located in Hajipur Majre Budhna Nigoha, providing quality education from Class 1 to 12.</p>
->>>>>>> 04561cd0577f370bca15c93a0f7a649a644c4eb7
 
             <div className="flex flex-wrap gap-4 pt-4">
               <Link to="/admissions" className="btn-secondary inline-flex items-center">
@@ -91,3 +75,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
