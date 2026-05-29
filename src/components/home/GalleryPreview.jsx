@@ -25,7 +25,7 @@ const GalleryPreview = () => {
             📸 Memories
           </span>
           <h2 className="section-title">Photo Gallery</h2>
-          <p className="section-subtitle">Glimpses of life at SPIC International School</p>
+          <p className="section-subtitle">Glimpses of life at SP Inter College</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
