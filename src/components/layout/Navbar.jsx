@@ -83,7 +83,7 @@ const Navbar = () => {
             </div>
             <div>
               <h1 className="text-lg md:text-xl font-bold text-primary-900 leading-tight">{SCHOOL_INFO.shortName}</h1>
-              <p className="text-xs text-gray-500 hidden sm:block">International School</p>
+              <p className="text-xs text-gray-500 hidden sm:block">Inter College</p>
             </div>
           </Link>
 

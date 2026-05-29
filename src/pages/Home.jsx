@@ -45,10 +45,10 @@ const Home = () => {
       <section className="py-16 gradient-hero text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">
-            Ready to Join {SCHOOL_INFO.shortName}?
+            Ready to Join {SCHOOL_INFO.name}?
           </h2>
           <p className="text-lg text-white/80 mb-8">
-            Admissions are now open for the academic session 2025-26. Join our family of 2000+ students.
+            Admissions are now open for the academic session 2025-26. Join our family of 2000+ students at Hajipur Majre Budhna Nigoha.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/admissions" className="btn-secondary">
