@@ -110,7 +110,7 @@ const Results = () => {
           <div className="card overflow-hidden animate-fade-in">
             {/* Header */}
             <div className="gradient-hero text-white p-6 text-center">
-              <h2 className="text-xl font-bold">SPIC International School</h2>
+              <h2 className="text-xl font-bold">SP Inter College</h2>
               <p className="text-sm text-white/70 mt-1">Examination Result Card - {result.student.session}</p>
             </div>
 

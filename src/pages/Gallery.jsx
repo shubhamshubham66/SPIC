@@ -29,7 +29,7 @@ const Gallery = () => {
       <section className="gradient-hero text-white py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold font-display mb-4">Photo Gallery</h1>
-          <p className="text-lg text-white/80">Capturing memories and moments at SPIC International School</p>
+          <p className="text-lg text-white/80">Capturing memories and moments at SP Inter College</p>
         </div>
       </section>
 
