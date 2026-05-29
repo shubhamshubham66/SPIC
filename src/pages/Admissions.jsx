@@ -163,3 +163,4 @@ const Admissions = () => {
 };
 
 export default Admissions;
+

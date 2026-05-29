@@ -53,3 +53,4 @@ const EventsPreview = () => {
 };
 
 export default EventsPreview;
+

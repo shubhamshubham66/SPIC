@@ -76,3 +76,4 @@ export const getGrade = (percentage) => {
   if (percentage >= 40) return 'D';
   return 'F';
 };
+
