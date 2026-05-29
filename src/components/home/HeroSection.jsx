@@ -28,7 +28,7 @@ const HeroSection = () => {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight font-display">
               Welcome to <br />
-              <span className="text-secondary-400">{SCHOOL_INFO.name}</span>
+              <span className="text-secondary-400">SP INTER COLLEGE</span>
             </h1>
             
             <p className="text-lg md:text-xl text-white/80 max-w-lg leading-relaxed">
