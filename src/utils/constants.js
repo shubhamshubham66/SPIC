@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // School Information
 export const SCHOOL_INFO = {
   name: "SPIC International School",
@@ -11,6 +12,23 @@ export const SCHOOL_INFO = {
   website: "www.spicschool.edu.in",
   principal: "Dr. Rajesh Kumar Sharma",
   principalMessage: "At SPIC International School, we believe in nurturing every child's potential to its fullest. Our commitment to academic excellence combined with holistic development ensures that our students are prepared to face the challenges of tomorrow. We focus on innovation, creativity, and character building that goes beyond textbooks.",
+=======
+// School Information - Sagar Public Inter College
+export const SCHOOL_INFO = {
+  name: "Sagar Public Inter College",
+  shortName: "SPIC",
+  tagline: "Nurturing Minds, Shaping Futures",
+  description: "Sagar Public Inter College, managed by Mr. Ajay Yadav, is a premier educational institution in Hajipur Majre Budhna Nigoha providing quality education from Class 1 to 12 with excellent academic results and experienced faculty.",
+  established: 2005,
+  address: "Hajipur Majre Budhna Nigoha, Uttar Pradesh",
+  phone: "+91 98765 43210",
+  email: "info@sagarpublicintercollege.in",
+  website: "www.sagarpublicintercollege.in",
+  manager: "Mr. Ajay Yadav",
+  principal: "Dr. Rajesh Kumar Sharma",
+  principalMessage: "At Sagar Public Inter College, we believe in nurturing every child's potential to its fullest. Our commitment to academic excellence combined with holistic development ensures that our students are prepared to face the challenges of tomorrow. We focus on innovation, creativity, and character building that goes beyond textbooks.",
+  managerMessage: "Education is the most powerful weapon which you can use to change the world. At Sagar Public Inter College, we are dedicated to providing quality education that empowers our students to become responsible citizens and future leaders.",
+>>>>>>> 04561cd0577f370bca15c93a0f7a649a644c4eb7
 };
 
 // Navigation Links
@@ -40,7 +58,11 @@ export const COURSES = [
     id: 1,
     name: "Primary Education",
     grades: "Class 1-5",
+<<<<<<< HEAD
     description: "Building strong foundations with creative learning methods and interactive classrooms.",
+=======
+    description: "Building strong foundations with creative learning methods and interactive classrooms at Sagar Public Inter College.",
+>>>>>>> 04561cd0577f370bca15c93a0f7a649a644c4eb7
     subjects: ["English", "Mathematics", "Science", "Social Studies", "Hindi", "Computer Science", "Art & Craft"],
     icon: "primary",
   },
@@ -102,7 +124,11 @@ export const EVENTS = [
   { id: 2, title: "Science Exhibition", date: "2024-11-20", description: "Students showcase innovative science projects and experiments.", category: "Academic", status: "upcoming" },
   { id: 3, title: "Annual Day Celebration", date: "2025-01-26", description: "Cultural performances, awards ceremony, and celebrations.", category: "Cultural", status: "upcoming" },
   { id: 4, title: "Parent-Teacher Meeting", date: "2024-11-10", description: "Quarterly academic progress discussion with parents.", category: "Academic", status: "past" },
+<<<<<<< HEAD
   { id: 5, title: "Inter-School Debate", date: "2024-12-05", description: "District-level debate competition hosted by SPIC.", category: "Competition", status: "upcoming" },
+=======
+  { id: 5, title: "Inter-School Debate", date: "2024-12-05", description: "District-level debate competition hosted by Sagar Public Inter College.", category: "Competition", status: "upcoming" },
+>>>>>>> 04561cd0577f370bca15c93a0f7a649a644c4eb7
   { id: 6, title: "Art & Craft Exhibition", date: "2024-12-20", description: "Display of student artwork and creative projects.", category: "Cultural", status: "upcoming" },
 ];
 
@@ -118,6 +144,7 @@ export const NOTICES = [
 
 // Gallery Images (placeholder descriptions)
 export const GALLERY_ITEMS = [
+<<<<<<< HEAD
   { id: 1, title: "Annual Day 2024", category: "Events", description: "Cultural performances by students" },
   { id: 2, title: "Science Lab", category: "Infrastructure", description: "State-of-the-art science laboratories" },
   { id: 3, title: "Sports Day", category: "Sports", description: "Inter-house athletics competition" },
@@ -126,6 +153,16 @@ export const GALLERY_ITEMS = [
   { id: 6, title: "Classroom", category: "Infrastructure", description: "Smart classrooms with digital boards" },
   { id: 7, title: "Art Exhibition", category: "Events", description: "Student art showcase" },
   { id: 8, title: "Independence Day", category: "Events", description: "Flag hoisting ceremony" },
+=======
+  { id: 1, title: "Annual Day 2024", category: "Events", description: "Cultural performances by students at Sagar Public Inter College" },
+  { id: 2, title: "Science Lab", category: "Infrastructure", description: "State-of-the-art science laboratories at SPIC" },
+  { id: 3, title: "Sports Day", category: "Sports", description: "Inter-house athletics competition" },
+  { id: 4, title: "Computer Lab", category: "Infrastructure", description: "Modern computer facilities for students" },
+  { id: 5, title: "Library", category: "Infrastructure", description: "Well-stocked school library" },
+  { id: 6, title: "Classroom", category: "Infrastructure", description: "Smart classrooms with digital boards" },
+  { id: 7, title: "Art Exhibition", category: "Events", description: "Student art showcase at Sagar Public Inter College" },
+  { id: 8, title: "Independence Day", category: "Events", description: "Flag hoisting ceremony at SPIC campus" },
+>>>>>>> 04561cd0577f370bca15c93a0f7a649a644c4eb7
   { id: 9, title: "Cricket Tournament", category: "Sports", description: "Inter-school cricket match" },
 ];
 
